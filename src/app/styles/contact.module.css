@@ -1,0 +1,200 @@
+.mainContainer {
+  background: linear-gradient(to bottom, #500037, #710046, #3f013a);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  height: 100px;
+  position: absolute;
+  width: 99vw;
+}
+
+.titleContainer {
+  margin-left: 9vw;
+  position: absolute;
+  top: 120px;
+}
+
+.imgContainer {
+  margin-top: 18vh;
+}
+
+.title {
+  font-size: 41px;
+  font-weight: bold;
+  width: 500px;
+}
+
+.description {
+  font-size: 31.2px;
+  width: 420px;
+}
+
+.contactCard {
+  background-color: #fff;
+  height: 550px;
+  width: 500px;
+  margin-left: 12vw;
+  border-radius: 10px;
+}
+
+.mainSectionContainer {
+  display: flex;
+}
+
+.cardHeader {
+  background-color: #2c2c2c;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.formContainer {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 8vh;
+  font-size: 20px;
+  gap: 5vh;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 1vh 0;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.wsIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.input {
+  border: 1px #c1c1c1 solid;
+  border-radius: 4px;
+  padding: 1.5vh;
+  resize: none;
+}
+
+.contactCardContainer {
+  position: absolute;
+  right: 100px;
+  top: 300px;
+}
+
+.footerContainer {
+  margin-top: 15vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  height: 500px;
+}
+
+.linkOff {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1375px) {
+  .contactCardContainer {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .mainSectionContainer {
+    flex-direction: column;
+  }
+  .contactCard {
+    margin-left: 0;
+  }
+  .contactCardContainer {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .imgContainer {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .circle {
+    height: 350px;
+    width: 400px;
+  }
+  .title {
+    font-size: 24px;
+    width: 400px;
+  }
+  .description {
+    font-size: 18.2px;
+    width: 250px;
+  }
+  .imgWs {
+    width: 400px;
+    height: 200px;
+  }
+  .contactCard {
+    height: 520px;
+    width: 350px;
+  }
+  .formContainer {
+    padding: 5%;
+    gap: 25px;
+  }
+  .cardHeader {
+    font-size: 26px;
+  }
+  .footerContainer {
+    margin-top: 10%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .titleContainer {
+    top: 80px;
+  }
+  .title {
+    font-size: 20px;
+    width: 350px;
+  }
+  .description {
+    font-size: 15.2px;
+    width: 213px;
+  }
+  .circle {
+    height: 278px;
+    width: 321px;
+  }
+  .imgWs {
+    width: 195px;
+    height: 120px;
+  }
+  .contactCard {
+    height: 500px;
+    width: 310px;
+  }
+  .label {
+    font-size: 15px;
+  }
+}

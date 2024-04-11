@@ -1,0 +1,82 @@
+.mainContainer {
+  background: linear-gradient(to bottom, #500037, #710046, #3f013a);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  height: 100px;
+}
+
+.titleContainer {
+  background-color: #fff;
+  width: 520px;
+  padding-left: 1.5vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 5vh;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.titleColorWord {
+  color: #5f013a;
+  font-weight: bold;
+}
+
+.descriptionTitle {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 1.5vw;
+  margin-top: 6vh;
+  font-weight: 200;
+}
+
+.stepsImageContainer {
+  margin-top: 12vh;
+}
+
+.footerContainer {
+  margin-top: -80px;
+}
+
+.stepsImage {
+  width: 100%;
+  height: 100%;
+}
+
+.stepsImageMobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .stepsImage {
+    display: none;
+  }
+  .stepsImageMobile {
+    display: inherit;
+  }
+  .stepsImageContainer {
+    width: 111%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 12vh;
+  }
+  .titleContainer {
+    width: 300px;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .descriptionTitle {
+    font-size: 14px;
+  }
+}
