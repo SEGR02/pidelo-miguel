@@ -25,11 +25,14 @@ export default function AboutUs() {
           </p>
           <div className={`${styles.card} ${styles.cardLeft}`}>
             <Image alt="" src={cart} />
-            <p className={styles.cardTitle}>Contar con una tienda virtual</p>
+            <p className={styles.cardTitle}>
+              Cuenta con una amplia variedad de páginas web auto gestionables
+            </p>
             <p className={styles.cardDescription}>
-              Te ayudaremos a crear tu propia tienda virtual. Podrás subir tus
-              productos, información y fotos referenciales. Todo lo que tus
-              clientes necesitan saber para realizar su pedido.
+              Ya sea de servicios, productos, automotora, inmobiliaria y blog de
+              noticias, podrás gestionar toda tu información, productos, fotos y
+              videos, referenciales, todo lo necesitas para el éxito de tu
+              negocio.
             </p>
           </div>
         </div>
@@ -37,32 +40,34 @@ export default function AboutUs() {
           <div className={`${styles.card} ${styles.cardMiddle}`}>
             <Image alt="" src={agile} />
             <p className={styles.cardTitle}>
-              Agilidad y control de tus pedidos
+              Productos Especiales, Corporativos o Institucionales
             </p>
             <p className={styles.cardDescription}>
-              Te brindaremos una página web para que controles los pedidos de
-              tus clientes. El pedido será preciso y con la información que
-              necesitas para atenderlo.
+              Agencias deportivas, organizaciones, instituciones, asociaciones,
+              inmobiliarias con clasificados, multi productos, revistas online,
+              cuyo propósito es ofrecer información general sobre tu actividad,
+              no te quedes sin consultarnos.
             </p>
           </div>
           <div className={`${styles.card} ${styles.cardRigth}`}>
             <Image alt="" src={phone} />
-            <p className={styles.cardTitle}>
-              Podrás gestionar tus pedidos desde un único lugar
-            </p>
+            <p className={styles.cardTitle}>Administración de redes sociales</p>
             <p className={styles.cardDescription}>
-              Olvídate de estar respondiendo llamadas, enviando información por
-              WhatsApp u otras redes sociales. Con "Pídelo" podrás centralizar
-              los pedidos de tus clientes.
+              Es la manera de permanecer conectado con tus seguidores, dar a
+              conocer tus servicios o productos, ellas son uno de los mejores
+              canales de comunicación, pero debemos saber manejarlos, así como
+              cuál adecuamos la mejor red social para tu negocio.
             </p>
           </div>
           <Image className={styles.figure} alt="" src={figure} />
         </div>
       </main>
       <p className={styles.lastP}>
-        Te ayudamos a potenciar tu negocio a <br /> través de las herramientas y
-        oportunidades <br />
-        del mundo digital y así impulsar tus ventas
+        Potenciamos tu negocio en el mundo <br />
+        digital, impulsando tu negocio online a <br />
+        través de nuestra herramienta web.
+        <br /> ¡Aprovecha nuestra oportunidad web de <br />
+        crecer en el mundo Digital!
       </p>
       <footer className={styles.footerContainer}>
         <Footer />

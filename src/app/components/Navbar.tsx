@@ -47,7 +47,7 @@ const Navbar = () => {
           className={styles.link}
           href="/aboutUs"
         >
-          Sobre Nostros
+          Nostros
         </Link>
         <Link
           style={
@@ -58,25 +58,21 @@ const Navbar = () => {
           className={styles.link}
           href="/wantMyVirtualStore"
         >
-          Quiero Mi Tienda <br /> Virtual
-        </Link>
-        <Link
-          style={pathname.includes("/contact") ? { fontWeight: "bold" } : {}}
-          className={styles.link}
-          href="/contact"
-        >
-          Contacto
-        </Link>
-        <Link
-          style={pathname.includes("/ourClients") ? { fontWeight: "bold" } : {}}
-          className={styles.link}
-          href="/ourClients"
-        >
-          Nuestros <br /> Clientes
+          Productos <br /> Sub Productos
         </Link>
         <Link className={styles.link} target="_blank" href="https://google.com">
-          Registra Tu <br />
-          Negocio
+          Productos <br />
+          Especiales
+        </Link>
+        <Link className={styles.link} target="_blank" href="https://google.com">
+          Nuestras <br /> Integraciones
+        </Link>
+        <Link className={styles.link} target="_blank" href="https://google.com">
+          Que ofrecemos <br />
+          Precios
+        </Link>
+        <Link className={styles.link} target="_blank" href="https://google.com">
+          Login
         </Link>
       </div>
     </nav>
