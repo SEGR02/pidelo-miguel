@@ -61,15 +61,14 @@ const Navbar = () => {
           Productos <br /> Sub Productos
         </Link>
         <Link className={styles.link} target="_blank" href="https://google.com">
-          Productos <br />
-          Especiales
-        </Link>
-        <Link className={styles.link} target="_blank" href="https://google.com">
           Nuestras <br /> Integraciones
         </Link>
         <Link className={styles.link} target="_blank" href="https://google.com">
           Que ofrecemos <br />
           Precios
+        </Link>
+        <Link className={styles.link} target="_blank" href="https://google.com">
+          Registro
         </Link>
         <Link className={styles.link} target="_blank" href="https://google.com">
           Login
