@@ -4,8 +4,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import steps from "../assets/stepsDesktopFinal.svg";
-import stepsMobile from "../assets/steps-mobile-final3.svg";
+import stepsMobile from "../assets/mobileCardsMiguelFinal.svg";
 import subproducts from "../assets/subproducts.svg";
+import subproductsMobile from "../assets/subProductsCardsMiguel.svg";
 
 export default function WantMyVirtualStore() {
   return (
@@ -52,7 +53,11 @@ export default function WantMyVirtualStore() {
         </div>
         <div className={styles.stepsImageContainer2}>
           <Image className={styles.stepsImage} alt="" src={subproducts} />
-          <Image className={styles.stepsImageMobile} alt="" src={stepsMobile} />
+          <Image
+            className={styles.stepsImageMobile2}
+            alt=""
+            src={subproductsMobile}
+          />
         </div>
       </main>
       <footer className={styles.footerContainer}>

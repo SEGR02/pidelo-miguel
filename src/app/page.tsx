@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./styles/home.module.css";
 import Navbar from "./components/Navbar";
 import ball from "./assets/ball.svg";
-import image3 from "./assets/imagenazul.svg";
+import image3 from "./assets/img4.svg";
 import image5 from "./assets/img6.jpg";
 import Footer from "./components/Footer";
 import Link from "next/link";

@@ -5,7 +5,7 @@ import styles from "../styles/home.module.css";
 import fb from "../assets/fb2.svg";
 import ig from "../assets/ig.svg";
 import ws from "../assets/ws2.svg";
-import logo from "../assets/withoutbgfinalLight.svg";
+import logo from "../assets/WhatsApp Image 2024-04-12 at 19.01.48.jpeg";
 
 const Footer = () => {
   return (
