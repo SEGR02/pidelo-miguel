@@ -3,10 +3,10 @@ import styles from "../styles/wantMyVirtualStore.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import steps from "../assets/stepsDesktopFinal.svg";
-import stepsMobile from "../assets/mobileCardsMiguelFinal.svg";
-import subproducts from "../assets/subproducts.svg";
-import subproductsMobile from "../assets/subProductsCardsMiguel.svg";
+import steps from "../assets/productosMiguel.svg";
+import stepsMobile from "../assets/productosMobileMiguel2.svg";
+import subproducts from "../assets/subproductsMiguel.svg";
+import subproductsMobile from "../assets/subproductsMobileMiguel.svg";
 
 export default function WantMyVirtualStore() {
   return (
@@ -47,9 +47,7 @@ export default function WantMyVirtualStore() {
               que puedes adherir a tus productos
             </p>
           </div>
-          <p className={styles.descriptionTitle2}>
-            Es mas, puedes contratar por única vez
-          </p>
+          <p className={styles.descriptionTitle2}>Además te brindamos</p>
         </div>
         <div className={styles.stepsImageContainer2}>
           <Image className={styles.stepsImage} alt="" src={subproducts} />

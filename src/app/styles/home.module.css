@@ -30,12 +30,12 @@
 .p {
   font-weight: 200;
   line-height: 1.5;
-  font-size: 40px;
+  font-size: 37px;
 }
 
 .title {
   font-weight: 900;
-  font-size: 47px;
+  font-size: 42px;
 }
 
 .buttonContainer {
@@ -69,7 +69,7 @@
   margin: 0;
   margin-left: 50px;
   font-weight: 200;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .containerRigthP {

@@ -64,9 +64,9 @@ export default function AboutUs() {
       </main>
       <p className={styles.lastP}>
         Potenciamos tu negocio en el mundo <br />
-        digital, impulsando tu negocio online a <br />
-        través de nuestra herramienta web.
-        <br /> ¡Aprovecha nuestra oportunidad web de <br />
+        digital con nuestra herramienta web, <br />
+        impulsándolo hacia el éxito online.
+        <br /> ¡Aprovecha esta oportunidad para <br />
         crecer en el mundo Digital!
       </p>
       <footer className={styles.footerContainer}>

@@ -18,11 +18,14 @@ export default function Home() {
         <div>
           <div className={styles.leftSection1}>
             <h1 className={styles.title}>
-              Somos tu aliado estratégico para crear tu página web
+              Somos tu aliado estratégico en la creación de tu página web
             </h1>
             <h2 className={styles.p}>
-              Te permitiremos tener presencia en el mundo digital y ofrecer
-              manera fácil y rápida tus productos o servicios.
+              Ofreciéndote una presencia digital{" "}
+              <span className={styles.colorRigthP}>
+                económica, fácil y rápida{" "}
+              </span>
+              para promocionar tus productos o servicios.
             </h2>
             <div className={styles.buttonContainer}>
               <Link href="/aboutUs">
@@ -36,8 +39,9 @@ export default function Home() {
             </div>
             <div className={styles.containerRigthP}>
               <h2 className={styles.rigthP}>
-                <span className={styles.colorRigthP}>Es simple.</span> te
-                brindamos páginas web,{" "}
+                <span className={styles.colorRigthP}>Es simple,</span> te{" "}
+                <span className={styles.colorRigthP}>proporcionamos </span>
+                páginas web,{" "}
                 <span className={styles.colorRigthP}>
                   multi producto, auto gestionables..
                 </span>
