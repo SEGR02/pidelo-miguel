@@ -44,13 +44,14 @@
 }
 
 .button {
-  background-color: #5f013a;
+  background-color: #221f77;
   color: #fff;
   padding: 18px 24px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 32px;
   margin-right: 20px;
+  border: none;
 }
 
 .rigthSection1 {
@@ -93,7 +94,7 @@
 }
 
 .colorRigthP {
-  color: #5f013a;
+  color: #221f77;
   font-weight: bold;
 }
 
@@ -141,7 +142,7 @@
 }
 
 .colorCardsP {
-  color: #5f013a;
+  color: #221f77;
   font-weight: bold;
 }
 

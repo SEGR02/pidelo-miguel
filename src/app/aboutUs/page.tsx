@@ -3,10 +3,10 @@ import Image from "next/image";
 import styles from "../styles/aboutUs.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import figure from "../assets/figure.svg";
-import agile from "../assets/agile.svg";
-import cart from "../assets/cart.svg";
-import phone from "../assets/phone.svg";
+import figure from "../assets/figure35.svg";
+import agile from "../assets/agile-development latest 1.svg";
+import cart from "../assets/cartslatest 1.svg";
+import phone from "../assets/conversation latest.svg";
 
 export default function AboutUs() {
   return (
