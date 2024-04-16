@@ -67,7 +67,7 @@ export default function AboutUs() {
         digital con nuestra herramienta web, <br />
         impulsándolo hacia el éxito online.
         <br /> ¡Aprovecha esta oportunidad para <br />
-        crecer en el mundo Digital!
+        expandir tu negocio!
       </p>
       <footer className={styles.footerContainer}>
         <Footer />

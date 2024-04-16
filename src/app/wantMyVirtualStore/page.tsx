@@ -3,10 +3,14 @@ import styles from "../styles/wantMyVirtualStore.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import steps from "../assets/productosMiguel.svg";
+import steps from "../assets/miguelProductos.svg";
 import stepsMobile from "../assets/productosMobileMiguel2.svg";
-import subproducts from "../assets/subproductsMiguel.svg";
-import subproductsMobile from "../assets/subproductsMobileMiguel.svg";
+import subproducts from "../assets/firstsubproducts.svg";
+import subproducts2 from "../assets/secondsubproducts.svg";
+import subproducts3 from "../assets/thirdsubproducts.svg";
+import subproductsMobile from "../assets/firstsubproductsmobile.svg";
+import subproducts2Mobile from "../assets/secondsubproductsmobile.svg";
+import subproducts3Mobile from "../assets/thirdsubproductsmobile.svg";
 
 export default function WantMyVirtualStore() {
   return (
@@ -47,7 +51,6 @@ export default function WantMyVirtualStore() {
               que puedes adherir a tus productos
             </p>
           </div>
-          <p className={styles.descriptionTitle2}>Además te brindamos</p>
         </div>
         <div className={styles.stepsImageContainer2}>
           <Image className={styles.stepsImage} alt="" src={subproducts} />
@@ -55,6 +58,42 @@ export default function WantMyVirtualStore() {
             className={styles.stepsImageMobile2}
             alt=""
             src={subproductsMobile}
+          />
+        </div>
+        <div className={styles.titleContainer3}>
+          <p className={styles.title}>
+            <span className={styles.titleColorWord}>
+              Es más, puedes contratar por única vez
+            </span>
+          </p>
+        </div>
+        <div className={styles.stepsImageContainer2}>
+          <Image className={styles.stepsImage} alt="" src={subproducts2} />
+          <Image
+            className={styles.stepsImageMobile2}
+            alt=""
+            src={subproducts2Mobile}
+          />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "flex-end",
+            flexDirection: "column",
+          }}
+        >
+          <div className={styles.titleContainer4}>
+            <p className={styles.title}>
+              <span className={styles.titleColorWord}>Ademas te brindamos</span>
+            </p>
+          </div>
+        </div>
+        <div className={styles.stepsImageContainer2}>
+          <Image className={styles.stepsImage} alt="" src={subproducts3} />
+          <Image
+            className={styles.stepsImageMobile2}
+            alt=""
+            src={subproducts3Mobile}
           />
         </div>
       </main>

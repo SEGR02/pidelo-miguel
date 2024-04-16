@@ -18,7 +18,7 @@ export default function Home() {
         <div>
           <div className={styles.leftSection1}>
             <h1 className={styles.title}>
-              Somos tu aliado estratégico en la creación de tu página web
+              Somos tu aliado estratégico en la creación de tu página web,
             </h1>
             <h2 className={styles.p}>
               Ofreciéndote una presencia digital{" "}

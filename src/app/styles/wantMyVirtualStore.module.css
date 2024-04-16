@@ -10,7 +10,9 @@
 }
 
 .titleContainer,
-.titleContainer2 {
+.titleContainer2,
+.titleContainer3,
+.titleContainer4 {
   background-color: #fff;
   width: 520px;
   padding-left: 1.5vw;
@@ -21,12 +23,21 @@
   margin-top: 5vh;
 }
 
-.titleContainer2 {
+.titleContainer2,
+.titleContainer4 {
   border-top-right-radius: inherit;
   border-top-left-radius: 10px;
   border-bottom-right-radius: inherit;
   border-bottom-left-radius: 10px;
   width: 440px;
+}
+
+.titleContainer3 {
+  width: 440px;
+}
+
+.titleContainer4 {
+  width: 380px;
 }
 
 .title {
@@ -59,7 +70,7 @@
 
 .stepsImageContainer2 {
   margin-top: 5vh;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
   display: flex;
   justify-content: center;
 }
@@ -97,6 +108,14 @@
   .titleContainer2 {
     width: 300px;
   }
+  .titleContainer3 {
+    width: 250px;
+  }
+
+  .titleContainer4 {
+    width: 210px;
+  }
+
   .title {
     font-size: 17px;
   }
