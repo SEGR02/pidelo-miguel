@@ -3,7 +3,7 @@ import styles from "../styles/wantMyVirtualStore.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import steps from "../assets/negrodenuevo.svg";
+import steps from "../assets/productsmiguelbluehard.svg";
 import stepsMobile from "../assets/parecefinalproductosmiguel2.svg";
 import subproducts from "../assets/firstsubproducts.svg";
 import subproducts2 from "../assets/secondsubproducts.svg";
