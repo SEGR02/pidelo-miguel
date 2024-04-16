@@ -62,9 +62,9 @@ export default function WantMyVirtualStore() {
         </div>
         <div className={styles.titleContainer3}>
           <p className={styles.title}>
-            <span className={styles.titleColorWord}>
-              Es más, puedes contratar por única vez
-            </span>
+            <span className={styles.titleColorWord}>Es más, </span>
+            puedes contratar{" "}
+            <span className={styles.titleColorWord}>por única vez </span>
           </p>
         </div>
         <div className={styles.stepsImageContainer2}>
@@ -84,7 +84,8 @@ export default function WantMyVirtualStore() {
         >
           <div className={styles.titleContainer4}>
             <p className={styles.title}>
-              <span className={styles.titleColorWord}>Ademas te brindamos</span>
+              <span className={styles.titleColorWord}>Ademas </span>
+              te brindamos
             </p>
           </div>
         </div>
