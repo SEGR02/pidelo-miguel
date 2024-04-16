@@ -8,8 +8,8 @@ import stepsMobile from "../assets/parecefinalproductosmiguel2.svg";
 import subproducts from "../assets/firstsubproducts22.svg";
 import subproducts2 from "../assets/secondsubproducts22.svg";
 import subproducts3 from "../assets/thirdsubproducts22.svg";
-import subproductsMobile from "../assets/firstsubproducts22.svg";
-import subproducts2Mobile from "../assets/secondsubproducts22.svg";
+import subproductsMobile from "../assets/firstsubproducts2222.svg";
+import subproducts2Mobile from "../assets/secondsubproducts22222.svg";
 import subproducts3Mobile from "../assets/thirdsubproducstmobile22.svg";
 
 export default function WantMyVirtualStore() {
