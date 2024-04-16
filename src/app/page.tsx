@@ -4,7 +4,7 @@ import styles from "./styles/home.module.css";
 import Navbar from "./components/Navbar";
 import ball from "./assets/ball.svg";
 import image3 from "./assets/imagenazul.svg";
-import image5 from "./assets/img6.jpg";
+import image5 from "./assets/WhatsApp Image 2024-04-16 at 16.40.01.jpeg";
 import Footer from "./components/Footer";
 import Link from "next/link";
 

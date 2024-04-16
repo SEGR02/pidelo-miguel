@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Image from "next/image";
 import steps from "../assets/iconsgray.svg";
 import stepsMobile from "../assets/parecefinalproductosmiguel2.svg";
-import subproducts from "../assets/firstsubproducts22.svg";
+import subproducts from "../assets/subprod1.svg";
 import subproducts2 from "../assets/secondsubproducts22.svg";
 import subproducts3 from "../assets/thirdsubproducts22.svg";
 import subproductsMobile from "../assets/firstsubproducts2222.svg";
@@ -52,7 +52,7 @@ export default function WantMyVirtualStore() {
             </p>
           </div>
         </div>
-        <div className={styles.stepsImageContainer2}>
+        <div className={styles.stepsImageContainerCustom}>
           <Image className={styles.stepsImage} alt="" src={subproducts} />
           <Image
             className={styles.stepsImageMobile2}
@@ -89,7 +89,7 @@ export default function WantMyVirtualStore() {
             </p>
           </div>
         </div>
-        <div className={styles.stepsImageContainer2}>
+        <div className={styles.stepsImageContainerCustom2}>
           <Image className={styles.stepsImage} alt="" src={subproducts3} />
           <Image
             className={styles.stepsImageMobile2}

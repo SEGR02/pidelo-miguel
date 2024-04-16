@@ -34,10 +34,12 @@
 
 .titleContainer3 {
   width: 440px;
+  margin-bottom: 6vh;
 }
 
 .titleContainer4 {
   width: 380px;
+  margin-bottom: 6vh;
 }
 
 .title {
@@ -69,10 +71,16 @@
 }
 
 .stepsImageContainer2 {
-  margin-top: 5vh;
-  margin-bottom: 10vh;
   display: flex;
   justify-content: center;
+}
+
+.stepsImageContainerCustom {
+  margin-top: -10vh;
+}
+
+.stepsImageContainerCustom2 {
+  margin-bottom: 10vh;
 }
 
 .footerContainer {
@@ -102,7 +110,6 @@
     display: flex;
     justify-content: center;
     margin-top: 5vh;
-    margin-bottom: 12vh;
   }
   .titleContainer,
   .titleContainer2 {
@@ -122,5 +129,17 @@
   .descriptionTitle,
   .descriptionTitle2 {
     font-size: 14px;
+  }
+  .stepsImageContainerCustom {
+    margin-top: 8vh;
+  }
+  .stepsImageContainerCustom2,
+  .stepsImageContainerCustom {
+    display: flex;
+    justify-content: center;
+    width: 111%;
+  }
+  .stepsImageContainer2 {
+    width: 111%;
   }
 }
