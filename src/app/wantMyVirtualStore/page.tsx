@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import steps from "../assets/iconsgray.svg";
-import stepsMobile from "../assets/parecefinalproductosmiguel2.svg";
+import stepsMobile from "../assets/productsmobileready.svg";
 import subproducts from "../assets/subprod1.svg";
 import subproducts2 from "../assets/secondsubproducts22.svg";
 import subproducts3 from "../assets/thirdsubproducts22.svg";

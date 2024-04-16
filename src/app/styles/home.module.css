@@ -299,7 +299,7 @@
     flex-direction: column;
   }
   .containerRigthP {
-    width: 70vw;
+    width: 87vw;
     margin-top: 30px;
     border-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -398,9 +398,6 @@
 }
 
 @media screen and (max-width: 463px) {
-  .rigthP {
-    font-size: 12.5px;
-  }
   .ball {
     height: 300px;
     width: 280px;
@@ -425,7 +422,7 @@
     margin-top: -57vh;
   }
   .containerCards {
-    margin-top: 405px;
+    margin-top: 450px;
   }
   .imageWithCardContainer {
     margin-top: -3vh;
