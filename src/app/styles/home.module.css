@@ -384,7 +384,7 @@
     height: 200px;
     align-items: center;
     display: inherit;
-    margin-top: 3vh;
+    margin-top: 10vh;
   }
   .img1Container {
     width: 100%;
@@ -399,17 +399,17 @@
 
 @media screen and (max-width: 463px) {
   .ball {
-    height: 300px;
-    width: 280px;
+    height: 387px;
+    width: 373px;
   }
   .title {
-    font-size: 14px;
-    width: 200px;
+    font-size: 20px;
+    width: 280px;
   }
 
   .p {
-    width: 200px;
-    font-size: 12px;
+    width: 280px;
+    font-size: 20px;
   }
   .buttonContainer {
     width: 150px;
