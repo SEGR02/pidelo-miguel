@@ -5,12 +5,12 @@ import Footer from "../components/Footer";
 import Image from "next/image";
 import steps from "../assets/iconsgray.svg";
 import stepsMobile from "../assets/productsmobileready.svg";
-import subproducts from "../assets/subproductsone.svg";
-import subproducts2 from "../assets/subproductstwo.svg";
-import subproducts3 from "../assets/subproductsthree.svg";
-import subproductsMobile from "../assets/firstsubproductss.svg";
-import subproducts2Mobile from "../assets/secondsubproductss.svg";
-import subproducts3Mobile from "../assets/thirdsubpr.svg";
+import subproducts from "../assets/finalFirstSubproducts.svg";
+import subproducts2 from "../assets/finalSecondSubproducts.svg";
+import subproducts3 from "../assets/finalThirdSubproducts.svg";
+import subproductsMobile from "../assets/finalFirstSubproductsMobile.svg";
+import subproducts2Mobile from "../assets/finalSecondSubproductsMobile.svg";
+import subproducts3Mobile from "../assets/finalThirdSubProductsMobile.svg";
 
 export default function WantMyVirtualStore() {
   return (
