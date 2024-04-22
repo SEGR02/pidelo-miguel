@@ -27,7 +27,7 @@
 
 .descriptionTitle {
   color: #fff;
-  margin-left: 60px;
+  margin-left: 45px;
   font-size: 31px;
   width: 460px;
 }
@@ -83,8 +83,8 @@
   position: absolute;
   right: 0;
   margin-top: 380px;
-  height: 885px;
-  width: 900px;
+  height: 864px;
+  width: 705px;
   overflow: hidden;
 }
 
@@ -92,7 +92,7 @@
   color: #fff;
   text-align: end;
   position: sticky;
-  font-size: 28px;
+  font-size: 22px;
   margin-right: 80px;
   margin-top: 0px;
 }
