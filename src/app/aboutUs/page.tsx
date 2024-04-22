@@ -63,11 +63,15 @@ export default function AboutUs() {
         </div>
       </main>
       <p className={styles.lastP}>
-        Potenciamos tu negocio en el mundo <br />
+        <span className={styles.bold}>Potenciamos tu negocio </span> en el mundo{" "}
+        <br />
         digital con nuestra herramienta web, <br />
         impulsándolo hacia el éxito online.
-        <br /> ¡Aprovecha esta oportunidad para <br />
-        expandir tu negocio!
+        <br />{" "}
+        <span className={styles.bold}>
+          ¡Aprovecha esta oportunidad para <br />
+          expandirte!
+        </span>
       </p>
       <footer className={styles.footerContainer}>
         <Footer />
