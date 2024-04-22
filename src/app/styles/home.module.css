@@ -174,7 +174,6 @@
 
 .footerTitle {
   font-weight: bold;
-  text-align: center;
 }
 
 .menuMobile {
@@ -465,5 +464,8 @@
   .menuMobile {
     height: 35px;
     width: 35px;
+  }
+  .footerTitle {
+    text-align: center;
   }
 }
